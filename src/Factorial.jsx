@@ -15,6 +15,8 @@ export default function Factorial() {
 //   that's how usememo works
   const fxn = useMemo(() => factorial(num),[num]);
 
+//   const fxn = factorial(num);
+
   return (
     <div>
       Factorial of
